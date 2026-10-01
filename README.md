@@ -15,8 +15,10 @@ A robust tool for capturing, restoring, and managing the complete state of AI ag
 ## Installation
 
 ```bash
-bun add agent-state-snapshot
+npm install github:Retsumdk/agent-state-snapshot
 ```
+
+> **Using Bun?** Bun blocks a git dependency's lifecycle scripts by default. After installing, run `bun pm trust agent-state-snapshot` so the `prepare` build step runs.
 
 ## Quick Start
 
